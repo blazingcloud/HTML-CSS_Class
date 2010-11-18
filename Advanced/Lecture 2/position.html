@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Poistion Example</title>
+        
+        <style type="text/css">
+            body {
+                background-color: blue;
+                margin: 0;
+            }
+            
+            
+            div.container {
+                width: 1000px;
+                height: 1000px;
+                margin: 50px 0 0 50px;
+            }
+            
+            div.pos-absolute {
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                background-color: red;
+            }
+            
+            div.pos-relative {
+                position: relative;
+                left: -20px;
+                width: 50px;
+                height: 50px;
+                background-color: green;
+            }
+            
+            div.pos-fixed {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                width: 50px;
+                height: 50px;
+                background-color: yellow;
+            }
+            
+            div.pos-static {
+                position: static;
+                width:50px;
+                height:50px;
+                background-color:purple;
+            }
+            
+        </style>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="pos-absolute"></div>
+            <div class="pos-fixed"></div>
+            <div class="pos-relative"></div>
+            <div class="pos-static"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Block verses Inline</title>
+        
+        <style type="text/css">
+            div {
+                background-color: blue;
+                border: 1px solid black;
+				height:auto;
+				
+            }
+            
+            span {
+                background-color: red;
+                border: 1px solid black;
+                height:20px;
+                line-height: 20px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        
+        <h2>display:block</h2>
+        <div>Block 1</div>
+        <div>Block 2</div>
+        <div>Block 3</div>
+        
+        <h2>display:inline</h2>
+        <span>Inline 1</span>
+        <span>Inline 2</span>
+        <span>Inline 3</span>
+        
+        <h2>Block with inline elements</h2>
+        <div>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+        </div>
+        
+        <h2>display:inline-block</h2>
+        <div style="height:20px;line-height:20px;">
+            <span>something</span><div style="display:inline-block;background-color:orange;width:300px;">this is an empty guy</div><span>something else</span>
+        </div>
+        
+        <h2>display:list-item</h2>
+        <div style="background-color:purple;padding-left:20px;">
+            <div style="display:list-item;">display: list-item</div>
+            <div style="display:list-item;">display: list-item</div>
+            <div style="display:list-item;">display: list-item</div>
+        </div>
+        
+        <h2>display:table</h2>
+        <div style="display:table;">
+            <div style="display:table-row">
+                <div style="display:table-cell">Row 1, Cell 1</div>
+                <div style="display:table-cell">Row 1, Cell 2</div>
+            </div>
+            <div style="display:table-row">
+                <div style="display:table-cell">Row 2, Cell 1</div>
+                <div style="display:table-cell">Row 2, Cell 2</div>
+            </div>
+        </div>
+       </body>
+</html>

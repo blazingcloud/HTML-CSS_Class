@@ -1,0 +1,36 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Cascading Example</title>
+        
+        <style type="text/css">
+            
+            div {
+                width: 50px;
+                height: 50px;
+                border: 5px solid black;
+                float: left;
+                background-color: purple;
+            }
+            
+            div.box {
+                background-color: green;
+            }
+            
+            div.box {
+                width: 100px;
+            }
+            
+            div.box {
+                background-color: red;
+            }
+            
+        </style>
+        
+    </head>
+    <body>
+        <div></div>
+        <div class="box"></div>
+        <div class="box" style="width:500px;background-color:blue;"></div>
+    </body>
+</html>

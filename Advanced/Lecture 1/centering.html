@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Centering</title>
+        
+        <style type="text/css">
+            div.centerBox {
+                width:500px;
+                min-height: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: purple;
+            }
+            
+            p {
+                line-height: 500px;
+                margin:0;
+                text-align: center;
+                font-weight: bold;
+                font-size: 26px;
+            }
+            
+            table {
+                background-color: green;
+                height: 1000px;
+                width: 1000px;
+            }
+            
+            table tr td {
+                vertical-align: middle;
+            }
+            
+            div.my-outer-container { 
+                position:relative;
+                width: 500px;
+                height: 500px;
+                background-color: red;
+            }
+            
+	        div.my-inner-container {
+	           position:absolute; 
+	           top:50%; 
+	           width:500px;
+	           height:50px; 
+	           background-color: orange;
+	        }
+        </style>
+    </head>
+    <body>
+        
+        <h2>Horizontally center div</h2>
+        <h3>With Text vertically and horizontally centered</h3>
+        <div class="centerBox">
+            <p>Center</p>
+        </div>
+        
+        
+        <h2>Horizontally and vertically centering text</h2>
+        <p style="width:500px;height:500px;background-color:blue;">
+            <span>foo bar</span>
+        </p>
+        
+        
+        <h2>Horizontally and vertically centering a div</h2>
+        <table>
+            <tr>
+                <td>
+                    <div class="centerBox"></div>
+                </td>
+            </tr>
+        </table>
+        
+        
+        <h2>Horizontally and vertically centering a div</h2>
+        <div class="my-outer-container">
+            <div class="my-inner-container"></div>
+        </div>
+        
+    </body>
+</html>

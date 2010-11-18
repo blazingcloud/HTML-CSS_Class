@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+        
+        <style type="text/css">
+            /* Using Images and Margin */
+            div.stars {
+                height:35px;
+                overflow: hidden;
+                margin:0;
+                padding: 0;
+                width:192px;
+            }
+            
+            div.stars a {
+                display:block;
+                width: 38px;
+                height: 35px;
+                padding: 0 5px;
+                float: left;
+            }
+            
+            div.stars a img:hover {
+                margin-top: -35px;
+            
+            }
+            
+            div.stars a.current img {
+                margin-top: -70px;
+            }
+            
+            /* Using Background Images and Position */
+            div.stars-background {
+                height:35px;
+                overflow: hidden;
+                margin:0;
+                padding: 0;
+                width:192px;
+            }
+            
+            div.stars-background a {
+                display:block;
+                width: 38px;
+                height: 35px;
+                padding: 0 5px;
+                float: left;
+                background: url('images/stars.png') no-repeat 0 0;
+            }
+            
+            div.stars-background a:hover {
+                background: url('images/stars.png') no-repeat 0 -35px;            
+            }
+            
+            div.stars-background a.current {
+                background: url('images/stars.png') no-repeat 0 -70px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <h1>Using Images and Margin</h1>
+        <div class="stars">
+            <a onclick="$(this).addClass('current')">
+                <img src="images/stars.png" alt="Rating 1"/>
+            </a>
+            <a onclick="$(this).addClass('current')">
+                <img src="images/stars.png" alt="Rating 2"/>
+            </a>
+            <a onclick="$(this).addClass('current')">
+                <img src="images/stars.png" alt="Rating 3"/>
+            </a>
+            <a onclick="$(this).addClass('current')">
+                <img src="images/stars.png" alt="Rating 4"/>
+            </a>
+        </div>
+        
+        <h1>Using Background Images and Background Position</h1>
+        <div class="stars-background">
+            <a onclick="$(this).addClass('current')"></a>
+            <a onclick="$(this).addClass('current')"></a>
+            <a onclick="$(this).addClass('current')"></a>
+            <a onclick="$(this).addClass('current')"></a>
+        </div>
+    </body>
+</html>

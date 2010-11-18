@@ -1,0 +1,137 @@
+body {
+	background-image: url('assets/background.png');
+	repeat: repeat;
+}
+
+p {
+	margin: 0;
+	font-family: "verdana", sans-serif;
+	font-size: 12px;
+}
+
+h2 {
+	font-family: "verdana", sans-serif;
+	color: #69c6eb;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+h1 {
+	font-family: "verdana", sans-serif;
+	color: #69c6eb;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+ul {
+list-style-image:url("assets/sidebar/list_image.png");
+}
+
+div#wrapper {
+  width:968px;
+  margin: 0 auto;
+  /*background-color:blue;*/
+}
+
+/* HEADER */
+
+div#header {
+  width:968px;
+  height:70px;
+  background-image: url('assets/background-top-slice.png');
+}
+
+div#logo {
+	float: left;
+	position: relative;
+	left: 36px;
+	top: 36px;
+	width:256px;
+	height:70px;
+	background-image: url('assets/header/blazing_cloud_logo.png');
+}
+
+div#navigation {
+	display: inline-block;
+	position: relative;
+	top: 36px;
+	left: 60px;
+	width: 612px;
+	height: 70px;
+	color: #FAAC58;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/* MAIN */
+
+div#content {
+  width:968px;
+  height:450px;
+  background-image: url('assets/background-middle-slice.png');
+}
+
+div#sidebar {
+	position: relative;
+	top: 95px;
+	left: 36px;
+  width:256px;
+  height: 300px;
+	line-height: 20px;
+	font-family: "verdana", sans-serif;
+	font-size: 10px;
+  /*background-color: orange;*/
+  float:left;
+}
+div#main-content {
+	position: relative;
+	right: 40px;
+	top: 60px;
+  width:612px;
+  height:413px;
+	line-height: 20px;
+  /*background-color: gray;*/
+  float:right;
+}
+
+div#headline {
+	width: 612px;
+	height: 60px;
+	float: right;
+	vertical-align: middle;
+}
+
+/* FOOTER */
+
+div#footer {
+  width:968px;
+  height: 50px;
+  /*background-color: purple;*/
+}
+
+div#footer-content {
+	width:968px;
+	height:30px;
+	background-image: url('assets/background-middle-slice.png');
+}
+
+div#footer-content div {
+	width:612px;
+	height: 30px;
+	text-align:center;
+	color: #FFFFFF;
+	line-height: 19px;
+	vertical-align: middle;
+	margin-right: 40px;
+	margin-bottom: 30px;
+	background-image: url('assets/footer/background.png');
+	background-repeat: no-repeat;
+	float:right;
+}
+
+div#bottom-slice {
+  width:968px;
+	height:20px;
+  background-image: url('assets/background-bottom-slice.png');
+}

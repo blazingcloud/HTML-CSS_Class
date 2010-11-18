@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurant>
+    <table>
+        
+        <condiments>
+            <item name="ketchup" />
+            <item name="mustard" />
+            <item name="salt" />
+        </condiments>
+        <silverware>
+            <item name="fork" />
+            <item name="knife" />
+        </silverware>
+        
+    </table>
+    
+    <personelle>
+        <front-of-house>
+            <staff-member position="matradee" name="john" />
+            <staff-member position="hostess" name="mary" />
+            <staff-member position="waitress" name="bobbie" />
+        </front-of-house>
+        <back-of-house>
+            <staff-member position="cook" name="juan" />
+        </back-of-house>
+    </personelle>
+    
+</restaurant>

@@ -1,0 +1,62 @@
+/* High Level Arch */
+div#wrapper {
+    background-color: blue;
+    width: 968px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+div#header {
+    width: 968px;
+    height: 70px;
+    background-color: green;
+}
+
+div#content {
+    width: 968px;
+    height: 300px;
+    background-color: red;
+}
+
+div#footer {
+   width: 968px;
+   height: 50px;
+   background-color: purple;               
+}
+
+div#sidebar {
+    width: 256px;
+    height: 300px;
+    float: left;
+    background-color: orange;
+}
+
+div#main-content {
+    width: 612px;
+    height: 300px;
+    float: right;
+    background-color: gray;
+}
+
+/* Header */
+
+/* Content */
+
+/* Footer */
+div#footer-content {
+    width: 968px;
+    height: 30px;
+    background-color: yellow;
+}
+
+div#footer-main-content {
+    width: 612px;
+    float: right;
+    text-align: center;
+}
+
+div#bottom-slice {
+    width: 968px;
+    height: 20px;    
+    background-image: url('assets/background-bottom-slice.png');
+}
